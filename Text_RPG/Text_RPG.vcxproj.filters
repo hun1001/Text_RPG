@@ -27,6 +27,9 @@
     <ClCompile Include="UtilFunc.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Knight.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Entity.h">
@@ -39,6 +42,9 @@
       <Filter>헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="UtilFunc.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Knight.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
