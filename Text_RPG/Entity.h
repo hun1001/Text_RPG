@@ -14,6 +14,8 @@ protected:
 	int m_atk;
 	int m_def;
 public:
+	virtual void Attack(Entity* target);
+	
 	/// <summary>
 	/// 체력 가져오기
 	/// </summary>

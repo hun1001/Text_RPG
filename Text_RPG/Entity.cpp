@@ -12,6 +12,11 @@ Entity::~Entity()
 {
 }
 
+void Entity::Attack(Entity* target)
+{
+	target->AddHp(-this->m_atk);
+}
+
 int Entity::GetHp()
 {
 	return m_hp;

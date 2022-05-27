@@ -12,9 +12,6 @@ public:
 	Player(int hp, int mp, int atk, int def, string name);
 	Player(int hp, int mp, int atk, int def, string name, string job);
 	virtual ~Player();
-	
-public:
-	virtual void Attack(Entity* target);
 
 protected:
 	string m_name;

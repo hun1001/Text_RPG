@@ -5,5 +5,7 @@ class Knight : public Player
 {
 public:
 	Knight();
+	~Knight();
+	
 };
 

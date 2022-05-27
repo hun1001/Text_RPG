@@ -20,11 +20,6 @@ Player::~Player()
 {
 }
 
-void Player::Attack(Entity* target)
-{
-	target->AddHp(-(this->GetAtk()));
-}
-
 void Player::SetName(string name)
 {
 }
